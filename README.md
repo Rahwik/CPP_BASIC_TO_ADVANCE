@@ -1,5 +1,3 @@
-  body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; } h1 { font-size: 24px; } h2 { font-size: 20px; margin-bottom: 10px; } h3 { font-size: 18px; margin-bottom: 10px; } p { font-size: 16px; margin-bottom: 10px; } ul { margin-bottom: 20px; } li { font-size: 16px; margin-bottom: 5px; } Programming in C/C++ Efficiently
-
 Programming in C/C++ Efficiently
 ================================
 
@@ -28,27 +26,46 @@ DAY 1: Getting Started
 
 ### 1\. The First Example:
 
-Dive into the basics with a simple introductory program. Understand the structure and execution of your first C++ program.
+Write a Cpp program to print hello world.
 
-### 2\. Different Programming Languages:
+### 2\. The Second Example:
 
-Compare and contrast C++ with other programming languages. Gain insights into the strengths and use cases of C++.
+Write a cpp program to print hello world using namespace std.
 
-### 3\. Compile and Link:
+### 3\. The Third Example:
 
-Learn about the compilation and linking processes in C++. Understand how your source code transforms into an executable program.
+Write a cpp using the function endl.
 
-### 4\. Different Errors:
+### 4\. The fourth Example:
 
-Explore common errors encountered in C++ programming. Develop strategies for debugging and resolving errors effectively.
+Write a Cpp program using the function endl.
 
-### 5\. Preprocessor and Macros:
+### 5\. The Fifth Example:
 
-Understand the role of the preprocessor in C++. Explore the use of macros for code optimization and flexibility.
+Write a Cpp program using the basic Arithmethic operators.
 
-### 6\. Simple Input and Output in HTML Format:
+DAY 2: Moving On
+----------------------
 
-Discover how to incorporate HTML formatting in your C++ programs. Use hashtags to create headings and enhance the visual presentation.
+### 1\. The First Example:
+
+Write a Cpp program for different types of data types.
+
+### 2\. The Second Example:
+
+Write a cpp program to enter the values in the ruun time and display them.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement simple arrays or array basics.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to use for loop and traverse a 1d array.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program using while loop and do while loop.
 
 Next Steps:
 -----------
