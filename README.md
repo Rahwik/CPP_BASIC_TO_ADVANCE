@@ -67,6 +67,29 @@ Write a Cpp program to use for loop and traverse a 1d array.
 
 Write a Cpp program using while loop and do while loop.
 
+DAY 3: Challenges
+----------------------
+
+### 1\. The First Example:
+
+Write a Cpp program using for each loop to implement arrays.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Auto using for each loop .
+
+### 3\. The Third Example:
+
+Write a cpp program to find the sum of the array elements.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to find max elemnt in the array.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program for binary search.
+
 Next Steps:
 -----------
 
