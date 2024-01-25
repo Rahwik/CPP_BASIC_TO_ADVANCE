@@ -90,6 +90,55 @@ Write a Cpp program to find max elemnt in the array.
 
 Write a Cpp program for binary search.
 
+DAY 4: Exploration
+----------------------
+
+### 1\. The First Example:
+
+Write a Cpp program to implement a pattern.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement a pattern.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement a pattern.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement 2D arrays.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program for to implement a 2d array using for each.
+
+DAY 5: Creativity.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program using pointers and do some traversal.
+
+### 2\. The Second Example:
+
+Write a cpp program for allocation and deallocation in pointers.
+
+### 3\. The Third Example:
+
+Write a cpp program to create a reference pointer using pointer location.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement pointer to function in CPP.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement pointer to function and find the min value of the two arguments.
+
+
 Next Steps:
 -----------
 
