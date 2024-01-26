@@ -138,6 +138,31 @@ Write a Cpp program to implement pointer to function in CPP.
 
 Write a Cpp program to implement pointer to function and find the min value of the two arguments.
 
+DAY 6: Persistence.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement simple fumctions.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement function overloading.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement function template.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement function template .
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement function template using public and private functions template.
+
 
 Next Steps:
 -----------
