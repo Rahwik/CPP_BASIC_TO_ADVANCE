@@ -163,6 +163,31 @@ Write a Cpp program to implement function template .
 
 Write a Cpp program to implement function template using public and private functions template.
 
+DAY 7: Optimization.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement class.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement pointer to class.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement heap to class.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Data Hiding in CPP .
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Data Hiding in CPP.
+
 
 Next Steps:
 -----------
