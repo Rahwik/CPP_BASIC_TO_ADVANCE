@@ -138,6 +138,7 @@ Write a Cpp program to implement pointer to function in CPP.
 
 Write a Cpp program to implement pointer to function and find the min value of the two arguments.
 
+
 DAY 6: Persistence.
 ----------------------
 
@@ -163,6 +164,8 @@ Write a Cpp program to implement function template .
 
 Write a Cpp program to implement function template using public and private functions template.
 
+Object Oriented Programming starts
+
 DAY 7: Optimization.
 ----------------------
 
@@ -187,6 +190,31 @@ Write a Cpp program to implement Data Hiding in CPP .
 ### 5\. The Fifth Example:
 
 Write a Cpp program to implement Data Hiding in CPP.
+
+DAY 8: Adaptability..
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Constructors.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Types of Constructors.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement Scope Resolution Operator.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Inline Functions .
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Operator Overloading.
 
 
 Next Steps:
