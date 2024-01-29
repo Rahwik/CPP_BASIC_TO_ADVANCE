@@ -191,7 +191,7 @@ Write a Cpp program to implement Data Hiding in CPP .
 
 Write a Cpp program to implement Data Hiding in CPP.
 
-DAY 8: Adaptability..
+DAY 8: Adaptability.
 ----------------------
 
 ### 0\. Some Basic Concepts:
@@ -215,6 +215,31 @@ Write a Cpp program to implement Inline Functions .
 ### 5\. The Fifth Example:
 
 Write a Cpp program to implement Operator Overloading.
+
+DAY 9: Innovation.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Friend Operator Overloading.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Insertion Operator Overloading.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement Inheritance.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Inheritance.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Inheritance.
 
 
 Next Steps:
