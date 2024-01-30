@@ -1,0 +1,5 @@
+/*
+Constructor is a class member function with the same name as
+the class. The main job of the constructor is to allocate memory for class objects.
+constructors is automatically called when the object is created.
+*/
