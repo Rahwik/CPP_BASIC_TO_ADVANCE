@@ -241,6 +241,30 @@ Write a Cpp program to implement Inheritance.
 
 Write a Cpp program to implement Inheritance.
 
+DAY 10: Reflection.
+----------------------
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Constructors in Class Member.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Is-A relationship.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement Has-A relationship.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Access Specifiers.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Base Class Pointers.
+
+
 
 Next Steps:
 -----------
