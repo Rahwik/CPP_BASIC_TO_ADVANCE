@@ -289,6 +289,30 @@ Write a Cpp program to implement Runtime polymorphism.
 
 Write a Cpp program to implement Runtime polymorphism.
 
+DAY 12: Consistency.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Abstract classes.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Friend Function and Classes.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement Static Members.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Static members.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Nested classes in CPP.
 
 Next Steps:
 -----------
