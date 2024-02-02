@@ -314,6 +314,31 @@ Write a Cpp program to implement Static members.
 
 Write a Cpp program to implement Nested classes in CPP.
 
+DAY 13: Resilience.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Exception Handling.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Template functions and classes.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement Constructors.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement Destructors.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement IO streams.
+
 Next Steps:
 -----------
 
