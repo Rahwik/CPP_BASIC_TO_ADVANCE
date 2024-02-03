@@ -339,6 +339,32 @@ Write a Cpp program to implement Destructors.
 
 Write a Cpp program to implement IO streams.
 
+DAY 14: Learning Never Ends.
+----------------------
+
+### 0\. Some Basic Concepts:
+
+### 1\. The First Example:
+
+Write a Cpp program to implement Vector.
+
+### 2\. The Second Example:
+
+Write a cpp program to implement Maps.
+
+### 3\. The Third Example:
+
+Write a cpp program to implement File handling in Vector.
+
+### 4\. The fourth Example:
+
+Write a Cpp program to implement File handling in Vector.
+
+### 5\. The Fifth Example:
+
+Write a Cpp program to implement Maps.
+
+
 Next Steps:
 -----------
 
