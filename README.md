@@ -370,4 +370,17 @@ Next Steps:
 
 Continue your learning journey by exploring the examples and exercises provided in this repository. Gain practical experience to solidify your grasp of C++ programming and OOP principles.
 
+
+C++ Projects Showcase
+=====================
+
+1\. Snake Game
+------------------
+
+2\. Comming Soon
+------------------
+
+3\. Comming soon
+------------------
+
 Happy coding!
