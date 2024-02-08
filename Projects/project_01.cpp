@@ -12,7 +12,7 @@ using namespace std;
 #define INIT_SNAKE_LENGTH 4
 #define FOOD 1
  
-//negative values represent areas that cannot be touched or else game over
+
 #define WALL -2
 #define SNAKE -1
 #define NOTHING 0
@@ -24,13 +24,8 @@ using namespace std;
 #define EXIT -1
 static int dx[5] = { 1, 0, -1, 0 };
 static int dy[5] = { 0, -1, 0, 1 };
-//direction array, for use with RIGHT, UP, LEFT, DOWN constants
-//(1, 0) is RIGHT
-//(0, -1) is UP (because the row number increase from top to bottom)
-//(-1, 0) is LEFT
-//(0, 1) is DOWN
  
-int input = RIGHT;    //global variable to take in the user's input
+int input = RIGHT;    
 int item = NOTHING;
  
 void gotoxy(int column, int row)
@@ -57,33 +52,31 @@ void clearScreen()
     hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
     if (hStdOut == INVALID_HANDLE_VALUE) return;
  
-    /* Get the number of cells and cell attributes in the current buffer */
     if (!GetConsoleScreenBufferInfo(hStdOut, &csbi)) return;
     cellCount = csbi.dwSize.X *csbi.dwSize.Y;
  
-    /* Fill the entire buffer with spaces */
     if (!FillConsoleOutputCharacter(
-        hStdOut,        //handle to console screen buffer
-        (TCHAR) ' ',    //character to write to the buffer
-        cellCount,        //number of cells to write to
-        homeCoords,        //coordinates of first cell
-        &count            //receives the number of characters written
+        hStdOut,       
+        (TCHAR) ' ',   
+        cellCount,       
+        homeCoords,       
+        &count            
         )) return;
  
-    /* Fill the entire buffer with the current colors and attributes */
+
     if (!FillConsoleOutputAttribute(
-        hStdOut,            //handle to console screen buffer
-        csbi.wAttributes,    //Character attributes to use
-        cellCount,            //Number of cells to set attribute
-        homeCoords,            //Coordinate of first cell
-        &count                //receives the number of characters written
+        hStdOut,            
+        csbi.wAttributes,    
+        cellCount,            
+        homeCoords,           
+        &count          
         )) return;
  
-    /* Move the cursor home */
+    
     SetConsoleCursorPosition(hStdOut, homeCoords);
 }
  
-//check if 2 directions are opposite
+
 int oppositeDirection(int input1, int input2)
 {
     if (input1 == LEFT && input2 == RIGHT)
@@ -143,7 +136,7 @@ void snake::initGround()
  
 void snake::initSnake()
 {
-    length = INIT_SNAKE_LENGTH;        //set head of snake to be at the centre
+    length = INIT_SNAKE_LENGTH;        
     body[0].x = WIDTH / 2;
     body[0].y = HEIGHT / 2;
     direction = input;
@@ -152,10 +145,10 @@ void snake::initSnake()
     int i;
     for (i = 1; i < length; i++)
     {
-        body[i].x = body[i - 1].x - dx[direction];        //if moving right,
-        body[i].y = body[i - 1].y - dy[direction];        //body is on the left
+        body[i].x = body[i - 1].x - dx[direction];        
+        body[i].y = body[i - 1].y - dy[direction];       
     }
-    //let the ground know the snake's position
+   
     for (i = 0; i < length; i++)
         ground[body[i].y][body[i].x] = SNAKE;
 }
@@ -173,8 +166,8 @@ void snake::updateSnake(int delay)
     if (input != EXIT && !oppositeDirection(direction, input))
         direction = input;
  
-    body[0].x = prev[0].x + dx[direction];        //head of snake
-    body[0].y = prev[0].y + dy[direction];        //follows the direction
+    body[0].x = prev[0].x + dx[direction];       
+    body[0].y = prev[0].y + dy[direction];      
  
     if (ground[body[0].y][body[0].x] < NOTHING)
     {
@@ -184,29 +177,29 @@ void snake::updateSnake(int delay)
  
     if (ground[body[0].y][body[0].x] == FOOD)
     {
-        length++;        //length of snake increases when it eats food
+        length++;       
         item = FOOD;
     }
     else
     {
         ground[body[length - 1].y][body[length - 1].x] = NOTHING;
         item = NOTHING;
-        gotoxy(body[length - 1].x, body[length - 1].y);        // if snake does not get food,
-        cout << " ";                        // erase last part because the snake is moving
+        gotoxy(body[length - 1].x, body[length - 1].y);        
+        cout << " ";                       
     }
  
     for (i = 1; i < length; i++)
     {
-        body[i].x = prev[i - 1].x;    //body follows the previous
-        body[i].y = prev[i - 1].y;    //location that it was from
+        body[i].x = prev[i - 1].x;    
+        body[i].y = prev[i - 1].y;    
     }
  
     gotoxy(body[1].x, body[1].y);
-    cout << "+";                    //change the previous head to a body
+    cout << "+";                    
     gotoxy(body[0].x, body[0].y);
-    cout << "O";                    //add a head to the snake
+    cout << "O";                   
  
-    //let the ground know the snake's position
+
     for (i = 0; i < length; i++)
         ground[body[i].y][body[i].x] = SNAKE;
  
@@ -227,7 +220,7 @@ void snake::updateFood()
     ground[y][x] = FOOD;
     foodCounter++;
     gotoxy(x, y);
-    cout << "$";    //prints a middle dot
+    cout << "$";   
 }
  
 void snake::firstDraw()
@@ -247,12 +240,12 @@ void snake::firstDraw()
                     || (i == 0 && j == WIDTH + 1)
                     || (i == HEIGHT + 1 && j == 0)
                     || (i == HEIGHT + 1 && j == WIDTH + 1))
-                    cout << "+";    //the 4 corners
+                    cout << "+";   
                 else
                     if (j == 0 || j == WIDTH + 1)
-                        cout << "|";    //left/right wall
+                        cout << "|"; 
                     else
-                        cout << "-";    //top/bottom wall
+                        cout << "-";    
                 break;
             case SNAKE:
                 if (i == body[0].y && j == body[0].x)
@@ -260,8 +253,8 @@ void snake::firstDraw()
                 else
                     cout << "+";
                 break;
-            default:                //food
-                cout << "$";    //prints a middle dot
+            default:              
+                cout << "$";    
             }
         }
         cout << endl;
