@@ -377,7 +377,7 @@ C++ Projects Showcase
 1\. Snake Game
 ------------------
 
-2\. Comming Soon
+2\. Tic Tac Game
 ------------------
 
 3\. Comming soon
