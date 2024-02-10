@@ -380,7 +380,7 @@ C++ Projects Showcase
 2\. Tic Tac Game
 ------------------
 
-3\. Comming soon
+3\. Guess The Number
 ------------------
 
 Happy coding!
