@@ -383,4 +383,7 @@ C++ Projects Showcase
 3\. Guess The Number
 ------------------
 
+4\. Calculator
+------------------
+
 Happy coding!
