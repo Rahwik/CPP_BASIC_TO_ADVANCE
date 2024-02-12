@@ -386,4 +386,7 @@ C++ Projects Showcase
 4\. Calculator
 ------------------
 
+5\. Rock Paper Scissors
+------------------
+
 Happy coding!
