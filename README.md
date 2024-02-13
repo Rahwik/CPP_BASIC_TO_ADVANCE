@@ -389,4 +389,7 @@ C++ Projects Showcase
 5\. Rock Paper Scissors
 ------------------
 
+5\. Power Options
+------------------
+
 Happy coding!
