@@ -392,4 +392,7 @@ C++ Projects Showcase
 5\. Power Options
 ------------------
 
+6\. HangMang Game
+------------------
+
 Happy coding!
